@@ -1,0 +1,22 @@
+table.board {
+    border-spacing: 0;
+}
+
+table.board td {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    padding: 0px;
+    text-align: center;
+}
+
+table.board tr.top td,
+table.board tr.middle td {
+    border-bottom: 5px solid royalblue;
+    transition: 0.5s;
+}
+
+table.board td.left,
+table.board td.middle {
+    border-right: 5px solid royalblue;
+}
