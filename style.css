@@ -1,3 +1,7 @@
+body {
+    background-color: honeydew;
+}
+
 table.board {
     border-spacing: 0;
 }
@@ -19,4 +23,11 @@ table.board tr.middle td {
 table.board td.left,
 table.board td.middle {
     border-right: 5px solid royalblue;
+}
+
+button.restart {
+    margin: 25px;
+    background-color: lightblue;
+    border: 1px solid cornflowerblue;
+    font-size: 32px;
 }
